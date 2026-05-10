@@ -1,0 +1,47 @@
+{
+  "info": {
+    "_postman_id": "f6d1e461-3fe5-4342-95d6-ff3a5f928cda",
+    "name": "pruebasPostman",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54644636",
+    "_collection_link": "https://go.postman.co/collection/54644636-f6d1e461-3fe5-4342-95d6-ff3a5f928cda?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Agregar Vendedor",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"cedula\": \"12345678\",\r\n    \"tipo\": \"V\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/examen",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "examen"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Calcular Sueldo",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
