@@ -9,7 +9,7 @@ import com.krakedev.examen.entidades.VendedorMixto;
 public class TestVendedorMixto_JUnit {
 	@Test
 	void retornoCorrecto_Metodo_calcularSueldo_VendedorMixto() {
-		VendedorMixto vendedor = new VendedorMixto("12345");
+		VendedorMixto vendedor = new VendedorMixto("12345", "V");
 
 		assertEquals(0, vendedor.calcularSueldo(), 0.001);
 	}

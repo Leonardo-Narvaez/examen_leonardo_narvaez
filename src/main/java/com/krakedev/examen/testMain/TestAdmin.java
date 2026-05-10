@@ -10,9 +10,9 @@ public class TestAdmin {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		AdminVentas ad = new AdminVentas();
-		Vendedor v = new Vendedor("12345");
-		VendedorComision v1 = new VendedorComision("56985");
-		VendedorMixto v2 = new VendedorMixto("85236");
+		Vendedor v = new Vendedor("12345", "V");
+		VendedorComision v1 = new VendedorComision("56985","C");
+		VendedorMixto v2 = new VendedorMixto("85236", "M");
 
 		ad.agregar(v);
 		ad.agregar(v1);

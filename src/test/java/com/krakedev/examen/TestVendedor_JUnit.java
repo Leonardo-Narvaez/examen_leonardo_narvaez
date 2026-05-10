@@ -10,7 +10,7 @@ public class TestVendedor_JUnit {
 
 	@Test
 	void retornoCorrecto_Metodo_calcularSueldo_Vendedor() {
-		Vendedor vendedor = new Vendedor("");
+		Vendedor vendedor = new Vendedor("12345", "V");
 
 		assertEquals(0, vendedor.calcularSueldo(), 0.001);
 	}

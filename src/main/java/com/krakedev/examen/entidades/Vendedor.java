@@ -5,6 +5,7 @@ public class Vendedor {
 	private int numeroVentas;
 	private double sueldoFijo;
 	private double comisionPorVenta;
+	private String tipo;
 
 	public String getCedula() {
 		return cedula;
@@ -38,9 +39,10 @@ public class Vendedor {
 		this.comisionPorVenta = comisionPorVenta;
 	}
 
-	public Vendedor(String cedula) {
+	public Vendedor(String cedula, String tipo) {
 		super();
 		this.cedula = cedula;
+		this.tipo = tipo;
 	}
 
 	@Override

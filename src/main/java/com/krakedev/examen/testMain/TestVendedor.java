@@ -6,7 +6,7 @@ public class TestVendedor {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Vendedor vendedor = new Vendedor("12345");
+		Vendedor vendedor = new Vendedor("12345", "V");
 
 		System.out.println(vendedor);
 	}
